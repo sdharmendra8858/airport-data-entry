@@ -5,18 +5,22 @@ a project on airport data entry and flight data entry. It is created on php, and
 It allows to add flight details for airport in such a way that only one flight arrives
 or departs from airport at a particular time with 10 minutes of runway time. To achieve
 this, you should have a database schema/collection with airport details as below:
+    
     - id
     - airport_code (varchar 6)
     - airport_name (varchar 255)
 
 and schema/collection for Flight Schedule as below:
+    
     -   id
     -  from_airport_id
     -  to_airport_id
     -  flight_no (varchar 10)
     -  depart_time
     -  arrival_time
+    
 For Example, let’s consider a snapshot of Flight Schedule as below:
+
      Record 1 {
         'id':'XYZVGHB",
         'from_airport_id":1, (FOR Bangalore)
